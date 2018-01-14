@@ -1,0 +1,6 @@
+1 - Mesmo que seja dificil um elemento html mudar de nome, é interessante criar uma classe css, para reduzir o acoplamento.
+    HTML:
+        <header class="header">
+    CSS:
+        header {} nao
+        .header {} sim

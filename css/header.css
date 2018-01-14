@@ -1,0 +1,34 @@
+/* css/header.css */
+.header {
+    /* Se a imagem nao tem o tamanho maximo o 'no-repet' nao deixa repetir para preencher. */
+    background: url('../img/destaque.jpeg') no-repeat;
+    /* Se a imagem nao tem o tamanho maximo o 'cover' estica ela. */
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.header .main-menu {
+    text-align: center;
+}
+
+.header .main-menu .menu-item {
+    /* Exibe '<li>' na horizontal. */
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .main-menu .menu-item a {
+    color: white;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    /* Remove o sublinhado do link. */
+    text-decoration: none;
+    text-transform: uppercase;
+    /* Combinado com o hover abaixo cria uma transicao suave. */
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover {
+    background-color: #48A3A6;
+}
