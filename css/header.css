@@ -32,3 +32,47 @@
 .header .main-menu .menu-item a:hover {
     background-color: #48A3A6;
 }
+
+.header .jumbotron {
+    padding: 0 0 44px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header .jumbotron .panel-main {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .jumbotron .panel-subscribe {
+    margin-top: 28px;
+}
+
+.header .jumbotron .title {
+    font-size: 3em;
+}
+
+.header .jumbotron .subtitle {
+    color: #64ff64;
+    font-size: 2.6em;
+    margin-top: 8px;
+}
+
+.header .jumbotron .button {
+    display: inline-block;
+    padding: 25px 50px;
+    margin: 5px;
+    background-color: #48A3A6;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+@media(min-width: 650px) {
+    .header .jumbotron {
+        font-size: 28px;
+    }
+}
